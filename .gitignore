@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# Virtual environments
+.venv/
+venv/
+env/
+build_venv/
+
+# Build outputs
+build/
+dist/
+*.exe
+
+# IDE and operating system
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local configuration and secrets
+.env
+.env.*
+.turlink-monitor/
+settings.json
+profiles.json
+configuration_snapshots.json
+logs.jsonl
+
+# Hardware configuration and captures
+*.dt
+*.pcap
+*.pcapng
+*.tlog
+packet_head_capture.bin
+
+# Temporary files
+*.tmp
+*.bak
+*.log
